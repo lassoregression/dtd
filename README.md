@@ -15,16 +15,16 @@ The analysis focuses on <b>IBM</b>, <b>General Motors (GM)</b>, and <b>Silicon V
 - Market Value Proxy Method
 - Volatility Restriction Method
 
-<h2>Assumptions</h2>
-
-- The information was reported based on the date it was disclosed rather than the quarter-end date for updating book values, as the market was unaware of the information until the reporting date, and any subsequent changes in equity would only occur after it was reported.
-- All the debt was considered current, except for the long-term debt associated with SVB.
-
 <h2>Valuation Challenge</h2>
 
 - Financial firms often exhibit inflated asset volatility due to their substantial liabilities, causing distortions in standard KMV DTD modeling.
 
 <b>Stabilizing DTD Estimates:</b> To reduce sampling errors in DTD calculations, <b>Equation (5)</b> <em>(from the paper)</em> is applied, which sets the mean equal to sigma squared divided by two, providing a more stable estimate of DTD.
+
+<h2>Assumptions</h2>
+
+- The information was reported based on the date it was disclosed, rather than the quarter-end date for updating book values, as the market was unaware of the information until the reporting date, and any subsequent changes in equity would only occur after it was reported.
+- All the debt was considered current, except for the long-term debt associated with SVB.
 
 <h1>Market Value Proxy Method</h1>
 
