@@ -1,5 +1,3 @@
-# dtd
-
 <h1>Measuring Distance to Default (DTD) for Risk Management (Py)</h1>
 
 
